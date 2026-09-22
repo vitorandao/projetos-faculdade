@@ -6,17 +6,9 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=FF6B35&center=true&vCenter=true&width=650&lines=Reposit%C3%B3rio+de+atividades+da+faculdade;Exerc%C3%ADcios+de+m%C3%BAltiplas+linguagens;Python+%7C+C+%7C+HTML+%7C+CSS+%7C+JS+%7C+SQL;Feito+por+Vitor+%F0%9F%94%A5" alt="Typing SVG" />
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/status-em%20andamento-FF6B35?style=for-the-badge&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/faculdade-UDF-F7931E?style=for-the-badge&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/licen%C3%A7a-uso%20acad%C3%AAmico-FFC300?style=for-the-badge&labelColor=2b1400" />
-
-</div>
-
 <br/>
 
-## 🔥 Sobre o repositório
+## Sobre o repositório
 
 Este repositório reúne **atividades, exercícios e trabalhos práticos** desenvolvidos ao longo do curso de **Engenharia de Software** no **Centro Universitário do Distrito Federal (UDF)**, organizados por disciplina e linguagem de programação.
 
@@ -24,7 +16,7 @@ O objetivo é manter um **histórico centralizado** de tudo que já foi produzid
 
 <br/>
 
-## 🧠 Linguagens utilizadas
+## Linguagens utilizadas
 
 <div align="center">
 
@@ -40,7 +32,7 @@ O objetivo é manter um **histórico centralizado** de tudo que já foi produzid
 
 <br/>
 
-## 📂 Estrutura do repositório
+## Estrutura do repositório
 
 <details open>
 <summary><b>🗂️ Clique para expandir a organização de pastas</b></summary>
