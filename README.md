@@ -16,41 +16,7 @@ O objetivo é manter um **histórico centralizado** de tudo que já foi produzid
 
 <br/>
 
-## Linguagens utilizadas
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-FF6B35?style=for-the-badge&logo=python&logoColor=white&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/C-F7931E?style=for-the-badge&logo=c&logoColor=white&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/HTML5-FFC300?style=for-the-badge&logo=html&logoColor=2b1400&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/CSS-FF6B35?style=for-the-badge&logo=css3&logoColor=white&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/JavaScript-FFC300?style=for-the-badge&logo=javascript&logoColor=2b1400&labelColor=2b1400" />
-<img src="https://img.shields.io/badge/SQL-FF6B35?style=for-the-badge&logo=mysql&logoColor=white&labelColor=2b1400" />
-
-</div>
-
-<br/>
-
-## Estrutura do repositório
-
-<details open>
-<summary><b> Clique para expandir a organização de pastas</b></summary>
-
-<br/>
-
-```
-projetos-e-faculdades/
-│
-├── python/          → Exercícios e atividades em Python
-├── c/                → Exercícios e atividades em C
-├── web/
-│   ├── html/         → Páginas e estruturas em HTML
-│   ├── css/          → Estilizações em CSS e CSS3
-│   └── javascript/   → Scripts e interatividade em JS
-├── sql/              → Consultas, modelagens e scripts SQL
-│
-└── README.md
-```
 
 >  Cada pasta contém subpastas nomeadas por **disciplina** e/ou **data da atividade**, facilitando a navegação e o histórico de evolução.
 
