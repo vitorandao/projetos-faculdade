@@ -41,11 +41,12 @@ O objetivo é manter um **histórico centralizado** de tudo que já foi produzid
 ```
 projetos-e-faculdades/
 │
-├── python/           → Exercícios e atividades em Python
+├── python/          → Exercícios e atividades em Python
 ├── c/                → Exercícios e atividades em C
-├── html/             → Páginas e estruturas em HTML
-├── css/              → Estilizações em CSS e CSS3
-├── javascript/       → Scripts e interatividade em JS
+├── web/
+│   ├── html/         → Páginas e estruturas em HTML
+│   ├── css/          → Estilizações em CSS e CSS3
+│   └── javascript/   → Scripts e interatividade em JS
 ├── sql/              → Consultas, modelagens e scripts SQL
 │
 └── README.md
