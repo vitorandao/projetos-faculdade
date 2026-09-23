@@ -1,27 +1,19 @@
-<h1 align="center">desenvolvimento-de-algoritmo-e-pensamento-computacional</h1>
+DESENVOLVIMENTO DE ALGORITMO E PENSAMENTO COMPUTACIONAL
 
-Repositório com os exercícios, listas e projetos desenvolvidos na disciplina Desenvolvimento de Algoritmo e Pensamento Computacional , do curso de Engenharia de Software do Centro Universitário do Distrito Federal (UDF) , referente ao 2º semestre .
+Repositório com os exercícios, listas de atividades e projetos desenvolvidos na disciplina DESENVOLVIMENTO DE ALGORITMO E PENSAMENTO COMPUTACIONAL, referente ao 2º SEMESTRE.
 
-<h1 align="center">Sobre a disciplina</h1>
+SOBRE A DISCIPLINA
 
-A disciplina trabalha os fundamentos da lógica de programação e do pensamento computacional, com implementação prática na linguagem C . O foco está em desenvolver uma capacidade de decompor problemas, estruturar algoritmos e traduzi-los em código funcional.
+A disciplina aborda os fundamentos da lógica de programação e do pensamento computacional, utilizando a linguagem C para a implementação prática dos conhecimentos. 
+O objetivo é desenvolver a capacidade de analisar e decompor problemas, estruturar algoritmos, criar soluções lógicas e transformar essas soluções em códigos funcionais.
 
-## Conteúdo Programático
+PRINCIPAIS CONTEÚDOS ESTUDADOS
 
-<p align="center"><strong>Lógica de programação e pensamento computacional</strong></p>
+Durante a disciplina, foram trabalhados conceitos de lógica de programação e pensamento computacional, incluindo sintaxe da linguagem C, variáveis, tipos de dados, operadores, entrada e saída de dados com scanf e printf,
+estruturas condicionais como if, else e switch, estruturas de repetição como for, while e do-while, vetores, matrizes, funções, modularização de código e manipulação de strings.
 
-* Sintaxe da C
-* Variáveis, tipos de dados e operadores
-* Entrada e saída de dados (`scanf`, `printf`)
-* Estruturas condicionais (`if`, `else`, `switch`)
-* Estruturas de reprodução (`for`, `while`, `do-while`)
-* Vetores e matrizes
-* Funções e modularização de código
-* Manipulação de strings
+As atividades práticas permitiram aplicar esses conceitos na resolução de problemas e no desenvolvimento de algoritmos, contribuindo para o aprimoramento do raciocínio lógico, capacidade de resolução de problemas e fundamentos da programação.
 
----
-
-### Autor
-
-**Vitor Brandão**  
-Estudante de Engenharia de Software — UDF
+PERÍODO DE DESENVOLVIMENTO  
+Início: 31 de agosto de 2026
+Conclusão: 2 de setembro de 2026
