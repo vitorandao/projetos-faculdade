@@ -1,0 +1,144 @@
+--	criando um novo banco de dados 
+create database BD_ACADEMICO6;
+
+--	instanciando 
+USE BD_ACADEMICO6;
+
+create table curso
+(
+	co_curso	int			null,
+    nome		varchar(40)	null
+);
+
+alter table curso add constraint pk_curso
+primary key (co_curso);
+
+create table turma
+(
+	co_turma		char(11)	not null,
+	ano				char(4) 	null,
+	periodo			char(1)		null,
+    descricao		char(50)	null,
+    dt_inicial		datetime	null,
+    dt_final		datetime	null,
+    num_provas		int			null,
+    co_curso		int			null
+);
+
+alter table turma add constraint PK_TURMA primary key (co_turma);
+
+alter table turma add constraint pk_turma
+foreign key (co_curso) references curso(co_curso);
+
+create table aluno
+(
+	co_aluno		int			not null,
+    dt_nascimento	datetime	null,
+    sg_sexo			char(1)		null,
+    nome			char(20)	null,
+    co_estadocivil	char(1)		null,
+    no_pai			varchar(70)	null,
+    no_mae			varchar(70)	null
+);
+
+alter table aluno add constraint pk_aluno
+primary key (co_aluno);
+
+create table aluno_turma 
+(	co_aluno		int			not null,
+	co_turma		char(11)	not null,
+    dt_matricula	datetime	null,
+    dt_cancelamento	datetime	null
+);
+
+alter table aluno_turma add constraint pk_at
+primary key (co_aluno, co_turma);
+
+alter table aluno_turma add constraint fk_at_turma
+foreign key (co_turma) references turma(co_turma);
+
+alter table aluno_turma add constraint fk_at_aluno
+foreign key (co_aluno) references aluno(co_aluno);
+
+create table disciplina
+
+(
+	co_disciplina		char(2)		not null,
+    no_disciplina		varchar(30)	null
+);
+
+alter table disciplina add constraint pk_disciplina
+primary key (co_disciplina);
+
+create table professor
+(
+	co_professor	int			not null,
+	sg_sexo			char(1)		null,
+	nome			varchar(20)	null,
+	dt_nascimento	datetime	null
+);
+
+alter table professor add constraint pk_professor
+primary key (co_professor);
+
+create table prova
+(
+	co_prova	char(3)		not null,
+	ds_prova	varchar(20)	null
+);
+
+alter table prova add constraint pk_prova
+primary key (co_prova);
+
+create table frequencia
+(
+	co_aluno		int			not null,
+	co_turma		char(11)	not null,
+	co_disciplina	char(2)		not null,
+	dt_frequencia	datetime	not null,
+	frequencia		char(1)		null
+);
+
+alter table frequencia add constraint pk_frequencia
+primary key (co_aluno, co_turma, co_disciplina, dt_frequencia);
+
+alter table frequencia add constraint fk_frequencia_at
+foreign key (co_aluno, co_turma) references aluno_turma(co_aluno, co_turma);
+
+alter table frequencia add constraint fk_frequencia_disciplina
+foreign key (co_disciplina) references disciplina(co_disciplina);
+
+create table prof_turm_disc
+(
+	co_professor	int			not null,
+	co_turma		char(11)	not null,
+	co_disciplina	char(2)		not null
+);
+
+alter table prof_turm_disc add constraint pk_ptd
+primary key (co_professor, co_turma, co_disciplina);
+
+alter table prof_turm_disc add constraint fk_ptd_professor
+foreign key (co_professor) references professor(co_professor);
+
+alter table prof_turm_disc add constraint fk_ptd_turma
+foreign key (co_turma) references turma(co_turma);
+
+alter table prof_turm_disc add constraint fk_ptd_disciplina
+foreign key (co_disciplina) references disciplina(co_disciplina);
+
+create table avaliacao
+(
+	co_aluno		int			not null,
+	co_turma		char(11)	not null,
+	co_disciplina	char(2)		not null,
+	co_prova		char(3)		not null,
+	dt_avaliacao	datetime	null,
+	nt_avaliacao	float		null
+);
+
+alter table avaliacao add constraint fk_avaliacao_disciplina
+foreign key (co_disciplina) references disciplina(co_disciplina);
+
+alter table avaliacao add constraint fk_avaliacao_prova
+foreign key (co_prova) references prova(co_prova);
